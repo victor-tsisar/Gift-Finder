@@ -3,7 +3,7 @@
         padding: 80px 20px;
     }
     .second-screen__item {
-        background-position: top;
+        background-position: unset;
     }
     .second-screen__about {
         padding: 80px 20px 80px 270px;
