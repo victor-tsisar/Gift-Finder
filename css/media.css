@@ -9,7 +9,7 @@
 
 @media (max-width: 1210px) {
     .first-screen__item,
-     .second-screen__item{
+    .second-screen__item{
         background-position: top;
     }
     .first-screen__about {
