@@ -321,6 +321,10 @@
     .header__btn {
         padding: 8px 14px;
     }
+    .modal.active {
+        max-width: 320px;
+        width: 100%;
+    }
 }
 
 @media (max-width: 386px) {

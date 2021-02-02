@@ -260,19 +260,22 @@
     </footer>
 
     <div class="modal" id="modal-menu">
-        <form>
+        <form class="modal__form">
             <div class="modal__title">
                 <label for="">Find Gift Now</label>
-                <a class="modal__close" href="#"><img src="images/btn-close.svg" alt=""></a>
+                <div class="modal__close">
+                    <img src="images/btn-close.svg" alt="close">
+                </div>
             </div>
-            <input type="text" placeholder="Your name">
-            <input type="text" placeholder="Your phone">
-            <textarea name="" placeholder="Your gift wishes"></textarea>
-            <input type="submit" value="SEND">
+            <input class="person-name" type="text" placeholder="Your name" required>
+            <input class="person-phone" type="tel" placeholder="Your phone" required>
+            <textarea class="person-message" name="textarea" placeholder="Your gift wishes"></textarea>
+            <input class="person-send" type="submit" value="SEND">
         </form>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/sweetalert.min.js"></script>
     <script src="js/jquery.fancybox-plus.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/main.js"></script>
